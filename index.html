@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+    <title>HTML Projects - Survey Form</title>
+    <meta charset="utf-8">
+<script>
+   #main{
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+}
+#title{
+  text-align:center;
+  font-size: 42px;
+  color: #333333;
+}
+#survey-form,p{
+  font-size:16px;
+  font-family:helvetica, sans-serif;
+  margin-left: 20%;
+  background-color:#d4d4d4;
+  margin: auto;
+  width: 60%;
+  padding: 1%;
+}
+#name-label, #email-label, #number-label,#name,#email, #number,#drop-down,label,fieldset,#comments{
+  margin-top:30px;
+  padding:10px;
+  width: 150px;
+  align:right;
+}
+</script>
+</head>
+<body>
+<div id-"main">
+<h1 id="title">Survey Form</h1>
+<p id="description"><b>This is a survey form for CasCode.</b></p>
+
+<br id="survey-form">
+<fieldset>
+  <legend>Enter Your Personal Detail</legend>
+  <label class="hii" id="Pla1" for="name">Name</label>
+ <input type="text" name="name" id="Platform1" placeholder="Enter Your Name" required>
+  <br>
+ <label class="hii" id="Pla2" for="email">Email</label>
+ <input type="email" name="email" id="Platform2" placeholder="text@gmail.com" required>
+  <br>
+  <label class="hii" id="Pla3" for="number">Batch No</label>
+ <input type="number" name="number" id="Platform3" placeholder="Enter Batch number"  required>
+ <br>
+ <label class="hii" id="Pla4" for="Domain">Domain</label>
+<input type="Domain" name="Domain" id="Platform4" placeholder="Enter your Domain" required>
+</fieldset>
+<!-- Fieldset begins here-->
+<fieldset>
+    <legend>In which domain you would like to work on the projects ?</legend>
+    <input class="flo" type="radio" name="course" id="Web Developement" value="Web Developement">
+    <label for="Web Developement">Web Developement</label>
+    <br>
+    <input class="flo" type="radio" name="course" id="AI / ML" value="AI / ML">
+    <label for="AI / ML">AI / ML</label>
+    <br>
+    <input class="flo" type="radio" name="course" id="Data Science" value="Data Science">
+    <label for="Data Science">Data Science</label>
+    <br>
+    <input class="flo" type="radio" name="course" id="Cyber Security" value="Cyber Security">
+    <label for="Cyber Security">Cyber Security</label>
+    <br>
+    <input class="flo" type="radio" name="course" id="Block Chain" value="Block Chain">
+    <label for="Block Chain">Block Chain</label>
+    <br>
+    <label id="Any Other.." for="Other">  Other</label>
+    <input type="text" name="Others" id="Platform" placeholder="Any other Domain" required>
+     <br>
+</fieldset>
+
+<!-- Fieldset begins here-->
+<fieldset>
+    <legend>From which platform you hear about us?</legend>
+    <input type="radio" name="Social Media" id="Social Media" value="Social Media">
+    <label for="Social Media">Social Media</label>
+    <br>
+    <input type="radio" name="College" id="College" value="College">
+    <label for="College">College</label>
+    <br>
+    <input type="radio" name="Friends" id="Friends" value="Friends">
+    <label for="Friends">Friend</label>
+    <br>
+    <label id="Any Other.." for="Other">  Other</label>
+    <input type="text" name="Others" id="Platform" placeholder="Any other platform" required>
+     <br>
+</fieldset>
+<!-- Textarea begins -->
+<br>
+<fieldset>
+  <legend for="drop-down">How was your experience about Course ?</legend>
+  <select class="hlo" name="drop-down" id="Platform">
+      <option value="Excellent">Excellent
+    </option>
+    <option value="Good">Good
+    </option>
+    <option value="Fair">Fair
+    </option>
+    <option value="Poor">Poor
+    </option>
+  </select>
+  <!-- Dropdown starts here -->
+  <br>
+  <textarea id="Platform" rows="5" columns="500">
+   
+  </textarea><br><br>
+  <!-- submit button -->
+  <input type="submit" id="submit" value="Submit">
+</form>
+</fieldset>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

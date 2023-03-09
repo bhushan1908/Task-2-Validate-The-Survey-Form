@@ -1,0 +1,63 @@
+#title{
+    color: red;
+    
+    border: 4px;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    margin-right:10px 20px 10px 20px;
+    padding: 10px;
+    width: auto;
+
+}
+
+.hii{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+}
+fieldset{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width:50%;
+    margin-left: 25%;
+    border-radius: 4px;
+    
+}
+fieldset input {
+    padding: 5px;
+    margin-top: 5px;
+}
+#description{
+    margin-left: 25%;
+}
+#submit{
+    margin: auto;
+    background-color: rgb(28, 178, 238);
+    border-radius: 4px;
+}
+body{
+    background-color: rgb(196, 231, 231);
+}
+#Platform{
+    margin: auto;
+    border: solid 0.5px;
+    border-radius: 4px;
+}
+.hlo{
+    width: 28%;
+}
+
+.flo{
+   display: flex;
+   flex-direction: row;
+}
+::placeholder{
+    
+    opacity: 5;
+}
